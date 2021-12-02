@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Passion+One&display=swap');
+
+@font-face
+{
+    font-family: 'poesia';
+    src: url('fonts/sriracha.ttf')
+    format('truetype')
+    
+}
+    
+
+        
+       :root {
+           --fh: 'passion one', cursive;
+           
+       }
+    
+       * {
+            margin: 0px;
+        }
+
+        header {
+           
+            position: relative;
+            height: 270px;
+            text-align: center;
+            color: white;
+            font-family: var(--fh);   
+            background-color: black;
+            
+            
+        }        
+        header > h1 {
+            font-weight: 900;
+            font-variant: small-caps;
+            width: 1000px;
+            font-size: 9em;
+            letter-spacing: 4px;
+            position: absolute;
+            left: 50%; top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        header > p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-top:200px;
+        }
+
+        section.branco > p {
+            line-height: 2em;
+            margin-left: 30px;
+            margin-top: 70px;
+            font-size: 47px;
+            font-family: 'poesia';
+            padding-bottom: 70px
+            ;
+            
+        }
+
+        section.flor {
+            background: black url(imagens/background001.jpg) center center fixed;
+        }
+
+        section.flor > p {
+            line-height: 2em;
+            margin-left: 30px;
+            margin-top: 70px;
+            font-size: 47px;
+            font-family: 'poesia';
+        }
