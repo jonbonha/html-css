@@ -32,19 +32,35 @@
             
         }        
         header > h1 {
-            font-weight: 900;
+            font-weight: 600;
             font-variant: small-caps;
             width: 1000px;
             font-size: 9em;
-            letter-spacing: 4px;
-            position: absolute;
-            left: 50%; top: 50%;
-            transform: translate(-50%, -50%);
+           letter-spacing: 4px;
+            margin: auto;
+            position: relative;
+            top: 40px ;
+           
         }
 
-        header > p {
+        header > p  {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            padding-top:200px;
+            margin: auto;
+            padding-top: 40px;
+            
+        }
+
+        header > p a {
+            text-decoration: none;
+            color: white;
+        }
+       
+        header > p a:hover {
+            text-decoration: underline;
+        }        
+
+        .branco#branco2 {
+            padding-bottom: 25px;
         }
 
         section.branco > p {
@@ -59,13 +75,53 @@
         }
 
         section.flor {
+            box-shadow: inset 0px 0px 13px;
             background: black url(imagens/background001.jpg) center center fixed;
+            background-size:cover;
+            height: 800px;
         }
 
         section.flor > p {
+            padding-top: 10px;
+            padding-left: 10px;
+            position: relative;
+            left: 30px; top: 70px;            
+            width: 560px;
+            background-color: rgba(0, 0, 0, 0.555);
+            color: white;
             line-height: 2em;
-            margin-left: 30px;
             margin-top: 70px;
             font-size: 47px;
             font-family: 'poesia';
+        }
+
+        .papel{
+            background: black url(imagens/background002.jpg) center center fixed;
+            background-size: cover;
+            height: 800px;
+            box-shadow: inset 0px 0px 12px;
+        }
+            
+        .papel > p {
+            padding-top: 10px;
+            padding-left: 5px;
+            position: relative;
+            left: 30px; top: 70px;            
+            width: 560px;
+            background-color: rgba(0, 0, 0, 0.555);
+            color: white;
+            line-height: 2em;
+            margin-top: 70px;
+            font-size: 47px;
+            font-family: 'poesia';
+            
+        }
+
+        footer {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: lighter;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            background-color:black ;
         }
